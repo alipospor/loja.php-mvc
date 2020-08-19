@@ -1,0 +1,22 @@
+{
+    "name": "app/balanco",
+    "description": "Projeto loja virtual usando padrão de projeto MVC, php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alisson Pospor",
+            "email": "ali_pospor@hotmail.com"
+        }
+    ],
+    "require": {
+      "ext-mysqli": "*",
+        "respect/validation": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Loja\\" : "src/"
+        },
+        "classmap": ["config/"]
+    }
+}
