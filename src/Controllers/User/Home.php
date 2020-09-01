@@ -11,6 +11,6 @@ class Home extends Banco implements HandlerInterface
 
     public function handle()
     {
-        $this->view('Home.php', ['usuario' => Usuario::getUser()]);
+        $this->view('Home.php', []);
     }
 }

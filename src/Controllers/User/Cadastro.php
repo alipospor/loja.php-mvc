@@ -8,6 +8,6 @@ class Cadastro extends Banco implements HandlerInterface
 {
     public function handle()
     {
-        $this->view('Cadastro.php');
+        $this->view('User/Cadastro.php');
     }
 }

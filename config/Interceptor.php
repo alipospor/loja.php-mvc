@@ -5,16 +5,20 @@ class Interceptor
     private $PERMISSION = [
         'Administrador' => [
             'cadastro-produto',
-            'home'
+            'home',
+            'autenticar',
+            'loggout'
         ],
         'Usuario' => [
-            'home'
+            'home',
+            'autenticar',
+            'loggout'
         ],
         'Visitante' => [
             'home',
             'login',
-            'cadastro'
-            
+            'cadastro',
+            'autenticar' 
         ]
     ];
 
